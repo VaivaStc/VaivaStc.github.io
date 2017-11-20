@@ -1,4 +1,43 @@
+.nav link {
+    text-transform:uppercase
+}
+
+
 .jumbotron {
     background: url("Images/bg-3.jpg") no-repeat center center;
     background-size: cover;
+    color: white;
 }
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkslategrey;
+    margin-top: 20px;
+}
+.material-icons {
+    display: inline-block;
+    font-size: 40px;
+    color: grey;
+}
+
+i.material-icons .green {
+    color: darkred;
+}
+
+.border-small {
+    width: 60px;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.border-big {
+    width: 250px;
+    margin: auto;
+    border-bottom: 2px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
